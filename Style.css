@@ -1,0 +1,64 @@
+body {
+  font-family: 'Josefin Sans';
+  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Jura', sans-serif;
+}
+p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.5; 
+}
+.text-light {
+  color: #67809F;
+}
+.text-primary {
+  color: #34495E;
+}
+.text-dark {
+  color: #22313F;
+}
+.btn {
+  border: 0;
+  border-radius: 300px;
+  font-weight: 700;
+  padding: 15px 30px;
+}
+.btn-primary {
+  background-color: #34495E;
+  color: #fff;
+}
+.btn:hover, .btn:focus {
+  background-color: #22313F;
+}
+.bg-primary {
+  color: #fff;
+  background-color: #34495E;
+}
+.bg-dark {
+  color: #fff;
+  background-color: #22313F;
+}
+::selection {
+  color: #fff;
+  background-color: #34495E;
+}
+hr {
+  max-width: 50px;
+  border-color: #67809F;
+  border-width: 3px;
+}
+a {
+  transition: all .35s;
+}
+section {
+  padding: 50px 0;
+}
+header {
+  background-image: url("http://emadsh.cf/wp-content/uploads/2016/08/bp_background_2_blue1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.skills-box {
+  max-width: 400px;
+  margin: 50px auto 0;
+}
